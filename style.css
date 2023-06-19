@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* heading  */
+.heading{
+    background-color: rgb(242, 212, 19);
+    width: 100%;
+    height: 5rem;
+}
+
+.heading h1{
+    padding: 1.2rem;
+    margin: 0 3rem;
+}
+
+.heading h1 i{
+    font-size: 1.4rem;
+
+}
+/* add note btn */
+.btn-div{
+    text-align: right;
+    margin: 1rem 3rem;
+   
+}
+.fa-chevron-right {
+    background-color: rgb(242, 212, 19);
+    font-size: 2rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: .5rem;
+    
+}
+.button-text{
+    padding: 1rem;
+    text-transform: capitalize;
+    
+}
+
+/* all notes container */
+#noteContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 5rem;
+}
+/* single note */
+.note{
+    width: 18rem;
+    height: 10rem;
+    overflow: auto;
+    padding: 1rem;
+    background-color: hsl(0, 74%, 91%);
+   
+}
+/* textarea in note */
+.textarea{
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    padding: 1rem;
+    border: none;
+    background-color: hsl(0, 74%, 91%);
+    
+    
+}
+
+.edit{
+    position:relative;
+    right: -13rem;
+    top: .6rem;
+    color: green;
+}
+
+.delete{
+    position:relative;
+    right: -13rem;
+    top: .6rem;
+    color: red;
+}
+.hidden{
+    display: none;
+}
